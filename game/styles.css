@@ -23,11 +23,7 @@ HTML elements
   align-items: center;
   width: 100vw;
   height: 100vh;
-  /*background: radial-gradient(
-    134.34% 134.34% at 50% 0%,
-    #1f3757 0%,
-    #131537 100%
-  );*/background: #8CC461;
+  background: #8CC461;
 }
 .dataContainer{
   width: 100vw;
@@ -38,7 +34,12 @@ HTML elements
   position: relative;
   justify-content: space-evenly;
 };
-.logo{
+.logos{
+  font-size: 36px;
+  color: white;
+  padding-left: 10px;
+}
+.logos p{
   font-size: 36px;
   color: white;
   padding-left: 10px;
@@ -53,6 +54,7 @@ HTML elements
   align-items: center;
   margin-top: 50px;
 }
+
 .score {
   width: 150px;
   height: 114px;
